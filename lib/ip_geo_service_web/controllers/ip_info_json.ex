@@ -16,7 +16,7 @@ defmodule IpGeoServiceWeb.IpInfoJSON do
       city: ip_info.city,
       latitude: ip_info.latitude,
       longitude: ip_info.longitude,
-      mystery_value: ip_info.mystery_value,
+      mystery_value: ip_info.mystery_value
     }
   end
 end
