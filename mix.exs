@@ -50,7 +50,9 @@ defmodule IpGeoService.MixProject do
       {:gettext, "~> 0.20"},
       {:jason, "~> 1.2"},
       {:plug_cowboy, "~> 2.5"},
-      {:ip_geo_parser, git: "https://github.com/vinikira/ip_geo_parser.git"}
+      {:ip_geo_parser, git: "https://github.com/vinikira/ip_geo_parser.git"},
+      {:credo, "~> 1.7", only: [:dev]},
+      {:dialyxir, "~> 1.4", only: [:dev]}
     ]
   end
 
