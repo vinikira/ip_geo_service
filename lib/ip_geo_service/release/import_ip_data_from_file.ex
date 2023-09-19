@@ -1,13 +1,13 @@
 defmodule IpGeoService.Release.ImportIpDataFromFile do
   @moduledoc """
-  Task to import a CSV file of IpInfo and upsert ino the database.
+  Task to import a CSV file of IpInfo and upsert into the database.
 
   ## Example
-    iex> IpGeoService.Release.ImportIpDataFromFile.call("./ip_geo_data.csv", [])
-    Import finished in 82.089133 seconds
-    Rows inserted: 884932
-    Errors found: 83395
-    :ok
+      iex> IpGeoService.Release.ImportIpDataFromFile.call("./ip_geo_data.csv", [])
+      Import finished in 82.089133 seconds
+      Rows inserted: 884932
+      Errors found: 83395
+      :ok
   """
   @app :ip_geo_service
 
