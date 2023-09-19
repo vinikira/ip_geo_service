@@ -20,6 +20,12 @@ defmodule IpGeoServiceWeb.Router do
     get "/", PageController, :home
   end
 
+  scope "/api", IpGeoServiceWeb do
+    pipe_through :api
+
+    get "/ip_info/:ip", IpInfoController, :get_by_ip
+  end
+
   # Other scopes may use custom stacks.
   # scope "/api", IpGeoServiceWeb do
   #   pipe_through :api

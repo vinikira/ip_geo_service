@@ -49,7 +49,8 @@ defmodule IpGeoService.MixProject do
       {:telemetry_poller, "~> 1.0"},
       {:gettext, "~> 0.20"},
       {:jason, "~> 1.2"},
-      {:plug_cowboy, "~> 2.5"}
+      {:plug_cowboy, "~> 2.5"},
+      {:ip_geo_parser, git: "https://github.com/vinikira/ip_geo_parser.git"}
     ]
   end
 
