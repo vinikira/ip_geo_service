@@ -85,7 +85,7 @@ You will receive the following response shape in case of success:
     "longitude": -53.94186920376674,
     "mystery_value": 4631788066
   }
-}%
+}
 ```
 
 And the following in case of your requested IP is not found:
@@ -95,7 +95,7 @@ And the following in case of your requested IP is not found:
   "errors": {
     "detail": "Not Found"
   }
-}%
+}
 ```
 
 ## Documentation
