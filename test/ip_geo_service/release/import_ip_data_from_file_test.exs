@@ -8,7 +8,7 @@ defmodule IpGeoService.Release.ImportIpDataFromFileTest do
   @tmp_file_name "data.csv"
 
   setup do
-    tmp_file_path = Path.expand([System.tmp_dir!(), @tmp_file_name])
+    tmp_file_path = Path.expand([System.tmp_dir!(), "/", @tmp_file_name])
 
     csv = """
     ip_address,country_code,country,city,latitude,longitude,mystery_value
